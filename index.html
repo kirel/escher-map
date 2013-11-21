@@ -1,0 +1,12 @@
+<html>
+  <head><title>Escher Map</title></head>
+  <body>
+    <div id="escher-map"></div> 
+    <script src="http://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script>
+    <script>
+    var storymap_data = 'data.json';
+    var storymap = new VCO.StoryMap('escher-map', storymap_data);
+    window.onresize = function(event) { storymap.updateDisplay(); }
+    </script>
+  </body>
+</html>
