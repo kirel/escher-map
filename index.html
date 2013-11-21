@@ -1,15 +1,16 @@
 <html>
   <head>
   <title>Escher Map</title>
-  <link rel="stylesheet" href="http://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css">  
+  <link rel="stylesheet" href="http://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
   </head>
   <body>
-    <div id="escher-map"></div> 
+    <div id="escher-map" class='container'></div> 
     <script src="http://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script>
     <script>
-    var storymap_data = 'data.json';
-    var storymap = new VCO.StoryMap('escher-map', storymap_data);
-    window.onresize = function(event) { storymap.updateDisplay(); }
+      var storymap_data = 'data.json';
+      var storymap = new VCO.StoryMap('escher-map', storymap_data);
+      window.onresize = function(event) { storymap.updateDisplay(); }
     </script>
   </body>
 </html>
