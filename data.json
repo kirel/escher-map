@@ -35,6 +35,24 @@
                     "url": "http://uploads4.wikipaintings.org/images/m-c-escher/the-sea-at-the-mouth-of-the-ebro.jpg",
                     "credit": "wikipainints"
                 }
+        },
+        {
+            "date": "1923",
+            "text": {
+                "headline": "1923",
+                "text": "Ravello II"
+            },
+            "location": {
+                "name": "Ravello",
+                "lat": 40.649189,
+                "lon": 14.611711,
+                "zoom": 10,
+                "line": true
+            },
+            "media": {
+                    "url": "http://uploads0.wikipaintings.org/images/m-c-escher/ravello-ii.jpg",
+                    "credit": "wikipainints"
+                }
         }]
     }
 }
